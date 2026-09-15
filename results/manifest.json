@@ -1,0 +1,14 @@
+{
+ "ts": "2026-09-14 02:28:32",
+ "model": "models/Qwen3-1.7B-Base",
+ "sft_adapter": "outputs/sft_lora/adapter_model.safetensors",
+ "sft_sha256": "871beb3a16923900a79b577809925827b407e757008bf3f077a48abab09e1830",
+ "scripts": {
+  "tasks.py": "706e57a5dad15f5bec1253f65a16f90a2201d292cee78713b762fd2289332419",
+  "task_probe.py": "d7f53eb1f2dbf8b4602a5a87392ee3e385739e281e5edd02b51257e6e285d43a",
+  "train_sgrpo.py": "81f5ab7c0db9c59f33f0328b1c5ab762cc3fe73348a681cfb4e1a736e01c955f",
+  "evaluate.py": "b2f4975534896cf1fa78559b32e861d47fdb1cb2efc6f2d1a851d08a8b81a5cc",
+  "stats.py": "deb7173f9db58cc129f3a591414bef6979162a3659d300b1880f09120d20c31c",
+  "common.py": "fbd130d1abcc08c955f31f72febd823eb40f93fa10b32767b927473d91e8b171"
+ }
+}

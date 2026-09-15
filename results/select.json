@@ -1,0 +1,21 @@
+{
+ "val": {
+  "sft": 0.5292,
+  "ckpts": {
+   "ckpt_0050": 0.7958,
+   "ckpt_0100": 0.9083,
+   "ckpt_0150": 0.9,
+   "ckpt_0200": 0.9167,
+   "ckpt_0250": 0.9,
+   "ckpt_0300": 0.8542,
+   "ckpt_0350": 0.8417,
+   "ckpt_0400": 0.7833,
+   "ckpt_0450": 0.8667
+  },
+  "n_val": 240
+ },
+ "best_ckpt": "ckpt_0200",
+ "best_val_acc": 0.9167,
+ "sft_val_acc": 0.5292,
+ "protocol": "max val acc; tie -> earliest ckpt"
+}

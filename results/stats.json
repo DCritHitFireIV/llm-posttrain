@@ -1,0 +1,27 @@
+{
+ "n": 2000,
+ "test_sha256": "2e5872a52442e351cc7bd039ff339d9a8562679a7bd0309395b35d7440339996",
+ "acc_sft": 0.5305,
+ "acc_rl": 0.8825,
+ "delta_rl_minus_sft_pp": 35.2,
+ "both_correct": 966,
+ "rl_only": 799,
+ "sft_only": 95,
+ "both_wrong": 140,
+ "discordant": 894,
+ "mcnemar_exact_p": 2.2294762625527052e-139,
+ "bootstrap": {
+  "n_boot": 10000,
+  "seed": 20260914,
+  "ci95_pp": [
+   32.7,
+   37.75
+  ]
+ },
+ "mde_pp_approx_80pct_power": 4.19,
+ "success_line": {
+  "definition": "McNemar exact p<0.05 且 bootstrap 95% CI 下界>0",
+  "pass": true
+ },
+ "backend": "HF 4bit (NF4+bf16) 贪心 pass@1；两臂同 session 交替生成"
+}

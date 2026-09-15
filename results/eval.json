@@ -1,0 +1,15 @@
+{
+ "test": "2e5872a52442e351cc7bd039ff339d9a8562679a7bd0309395b35d7440339996",
+ "sft_adapter": "./outputs/sft_lora",
+ "rl_adapter": "./outputs/ckpt_0200",
+ "n": 2000,
+ "n_used": 2000,
+ "n_available": 2000,
+ "batch": 8,
+ "model": "./models/Qwen3-1.7B-Base",
+ "acc_sft": 0.5305,
+ "acc_rl": 0.8825,
+ "sft_out": "./results/eval_sft_n2000.jsonl",
+ "rl_out": "./results/eval_rl_n2000.jsonl",
+ "resumed_from": 1552
+}
